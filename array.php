@@ -140,6 +140,10 @@ function getCook($cook){
 
 print getCook('wuse');
 
+function samicoGet($sam){
+    $rocket = $sam;
+    return $rocket;
+}
 
 
 ?>
