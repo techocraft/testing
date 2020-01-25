@@ -122,5 +122,15 @@ if(in_array('lemon', $fruits)){
 	echo array_search('lemon', $fruits);
 }
 
+$high_school_names = array(
+  'Corner Stone',
+  'Command',
+  'Elizabeth high school'
+);
+
+foreach($high_school_names as $k => $value){
+    echo $value;
+}
+
 
 ?>
