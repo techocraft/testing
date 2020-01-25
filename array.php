@@ -122,5 +122,11 @@ if(in_array('lemon', $fruits)){
 	echo array_search('lemon', $fruits);
 }
 
+function getCook($cook){
+    $name = $cook;
+    return $name;
+}
+
+print getCook('wuse');
 
 ?>
