@@ -122,6 +122,7 @@ if(in_array('lemon', $fruits)){
 	echo array_search('lemon', $fruits);
 }
 
+
 $high_school_names = array(
   'Corner Stone',
   'Command',
@@ -131,6 +132,14 @@ $high_school_names = array(
 foreach($high_school_names as $k => $value){
     echo $value;
 }
+
+
+function getCook($cook){
+    $name = $cook;
+    return $name;
+}
+
+print getCook('wuse');
 
 
 ?>
