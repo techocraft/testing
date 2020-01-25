@@ -140,6 +140,8 @@ function getCook($cook){
 
 print getCook('wuse');
 
-
+function gitman(){
+    'git is so cool';
+}
 
 ?>
