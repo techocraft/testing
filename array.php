@@ -140,10 +140,16 @@ function getCook($cook){
 
 print getCook('wuse');
 
+
+function gitman(){
+    'git is so cool';
+}
+
 function samicoGet($sam){
     $rocket = $sam;
     return $rocket;
 }
+
 
 
 ?>
