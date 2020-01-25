@@ -133,13 +133,13 @@ foreach($high_school_names as $k => $value){
     echo $value;
 }
 
-
 function getCook($cook){
     $name = $cook;
     return $name;
 }
 
 print getCook('wuse');
+
 
 
 ?>
